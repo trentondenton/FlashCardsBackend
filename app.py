@@ -26,7 +26,7 @@ class Card(db.Model):
 
 class CardSchema(ma.Schema):
     class Meta:
-        fields = ('front', 'back')
+        fields = ('id', 'front', 'back')
 
 
 card_schema = CardSchema()
